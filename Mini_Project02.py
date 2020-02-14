@@ -1,4 +1,9 @@
 #!/usr/bin/env python3.8
+"""
+Christerpher Hunter 2020 FEB 13
+EEE 350 Mini Project 2
+ASU ID: 1201152983
+"""
 
 import math
 
@@ -9,12 +14,6 @@ def nCk(n, k):
     f = math.factorial
     return f(n) // f(k) // f(n - k)
 
-
-# Total number of white ball in circulation
-#
-white_balls = []
-for i in range(69):
-    white_balls.append(i)
 
 # Probability of all proposed chances and the odds of winning
 #
